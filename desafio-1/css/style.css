@@ -50,12 +50,15 @@ input[type="search"] {
   width: 100%;
   padding: 1.375rem;
   font-family: "Inter", sans-serif;
+  outline: 0;
+  font-size: 18px;
+  color: var(--white);
 }
 
 input::placeholder {
   color: var(--white);
-  opacity: 0.5;
-  font-weight: 500;
+  opacity: 0.6;
+  font-weight: 100;
   font-size: 18px;
 }
 
@@ -85,10 +88,10 @@ article {
 }
 
 article:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-div {
+.div-space-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -107,7 +110,7 @@ i {
   font-size: 24px;
 }
 
-h2 {
+.title {
   font-size: 26px;
 }
 

@@ -20,7 +20,7 @@
         <p>Codelândia</p>
         <p>blog</p>
       </nav>
-      <div id="divSearch">
+      <div id="divSearch" class="div-space-between">
         <i class="fas fa-search"></i>
         <input
           type="search"
@@ -31,59 +31,93 @@
       </div>
     </header>
     <main>
-      <article>
-        <div>
-          <h3>02 de jul, 2021</h3>
+      <article class="container-post">
+        <div class="div-space-between date">
+          <h3>13 de out, 2021</h3>
           <i class="far fa-heart"></i>
         </div>
-        <h2>Agora é oficial: o Windows 11 está vindo</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus
-          vel diam fringilla, eu ullamcorper ex iaculis.
+        <h2 class="title">
+          IA consegue prever acidentes de trânsito antes que aconteçam
+        </h2>
+        <p class="description">
+          O sistema identifica locais de alto risco utilizando dados de GPS e
+          imagens de satélite mesmo que a área não tenha registrado acidentes.
+          Uma das ideias é combinar a tecnologia com aplicativos de navegação,
+          como o Waze, para identificar segmentos de estradas potencialmente
+          perigosos. As informações são do site MIT News.
         </p>
       </article>
-      <article>
-        <div>
-          <h3>02 de jul, 2022</h3>
+      <article class="container-post">
+        <div class="div-space-between date">
+          <h3>13 de out, 2021</h3>
           <i class="far fa-heart"></i>
         </div>
-        <h2>Tim Berners-Lee vai leiloar código-fonte da web</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus
-          vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor
-          justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar
-          tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum
-          ullamcorper libero.
+        <h2 class="title">
+          Estudo russo confirma que viagens espaciais causam danos ao cérebro
+        </h2>
+        <p class="description">
+          Além dos já documentados efeitos adversos no corpo humano como atrofia
+          muscular, diminuição da massa óssea e deterioração da visão, cinco
+          cosmonautas que passaram quase seis meses em órbita demonstraram
+          níveis elevados de biomarcadores que indicam danos em células
+          cerebrais em exames de sangue feitos após seu retorno. Os
+          pesquisadores agora querem descobrir se a causa desses danos seria a
+          microgravidade, estresse associado ao lançamento e pouso ou outro
+          fator. As informações são do site ScienceDaily.
         </p>
       </article>
-      <article>
-        <div>
-          <h3>02 de jul, 2023</h3>
+      <article class="container-post">
+        <div class="div-space-between date">
+          <h3>13 de out, 2021</h3>
           <i class="far fa-heart"></i>
         </div>
-        <h2>Tem Firefox novo no pedaço e você vai querer migrar</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          vestibulum auctor est.
+        <h2 class="title">
+          Pesquisadores conseguem realizar teletransporte quântico utilizando
+          dispositivos optomecânicos pela primeira vez
+        </h2>
+        <p class="description">
+          A descoberta é um grande passo em direção a uma futura internet
+          quântica híbrida, na qual vários sistemas diferentes são compatíveis
+          entre si, conseguindo se comunicar e realizar diferentes
+          funcionalidades na transferência de informações quânticas sem perdas
+          ou variações. As informações são do site Phys.
         </p>
       </article>
-      <article>
-        <div>
-          <h3>02 de jul, 2021</h3>
+      <article class="container-post">
+        <div class="div-space-between date">
+          <h3>13 de out, 2021</h3>
           <i class="far fa-heart"></i>
         </div>
-        <h2>John McAfee, criador do antivírus McAfee, morre</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus
-          vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor
-          justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar
-          tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum
-          ullamcorper libero.
+        <h2 class="title">
+          Azure da Microsoft consegue bloquear novo ataque DDoS, o maior da
+          história
+        </h2>
+        <p class="description">
+          O tráfego de 2,4 Tbps originou-se de aprox. 70.000 fontes em vários
+          países e teve como alvo um único cliente europeu do serviço cloud da
+          Microsoft. A quantidade desse tipo de ataque já registrou aumento de
+          25% neste ano. As informações são do site The Register e Azure.
         </p>
       </article>
     </main>
+    <footer>
+      <p>
+        Notícias retiradas da Newsletter do Filipe Deschamps enviada no dia
+        13/10/2021
+      </p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      const sr = ScrollReveal({
+        origin: "bottom",
+        distance: "40px",
+        duration: 1000,
+      });
+
+      ScrollReveal().reveal(".container-post", { delay: 200 });
+      ScrollReveal().reveal(".date", { delay: 300 });
+      ScrollReveal().reveal(".title", { delay: 500 });
+      ScrollReveal().reveal(".description", { delay: 600 });
+    </script>
   </body>
 </html>
