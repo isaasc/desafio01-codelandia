@@ -88,7 +88,6 @@ article p {
   border-radius: 5px;
   width: 100%;
   margin-top: 73px;
-  
 }
 
 input[type="search"] {
@@ -97,17 +96,17 @@ input[type="search"] {
   height: 65px;
   width: 100%;
   padding: 22px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 input::placeholder {
-    color: var(--branco);
-    opacity: 0.5;
-    font-weight: 500;
-    font-size: 18px;
+  color: var(--branco);
+  opacity: 0.5;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .fa-search {
-    color: var(--branco);
-    padding-left: 21px;
+  color: var(--branco);
+  padding-left: 21px;
 }
