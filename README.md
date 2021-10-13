@@ -9,6 +9,6 @@ Link do desafio no Figma: [Primeiro desafio | Codelândia] (https://www.figma.co
 
 Divido em 3 etapas:
 * 1º Estrutura do desafio; 
-* 2º Responsividade; (desafio atual)
+* 2º Responsividade; 
 * 3º Animação.
 
