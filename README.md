@@ -35,7 +35,7 @@ git clone https://github.com/isaasc/desafio01-codelandia
 # Entre no diretório
 cd desafio-1
 ```
-**OBS:** Utilize o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
+**Sugestão:** Utilize o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
 
 ---
 
