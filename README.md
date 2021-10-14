@@ -30,6 +30,8 @@ Para o desenvolvimento deste projeto utilizei as seguintes tecnologias:
 ```bash
 # Clone o repositório
 git clone https://github.com/isaasc/desafio01-codelandia
+```
+```bash
 # Entre no diretório
 cd desafio-1
 ```
