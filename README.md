@@ -1,4 +1,4 @@
-⚠️ Em construção -- detalhes ⚠️
+⚠️ Detalhes em construção ⚠️
 
 # First Codelândia Challenge - Codelândia Blog  💻✨
 O desafio Codelândia Blog foi um desafio organizado pelo <a href="https://github.com/iuricode">@iuricode</a> para quem faz parte da comunidade do Discord Codelândia. O objetivo é colocar em prática os conhecimentos acerca de HTML, CSS e JavaScript. O projeto consiste em um blog de notícias, no qual o usuário pode utilizar a barra de input e encontrar uma notícia específica.
@@ -25,7 +25,7 @@ Para o desenvolvimento deste projeto utilizei as seguintes tecnologias:
 * CSS3;
 * JavaScript.
 
-## Como executar o projeto
+## 🎞️ Como executar o Projeto
 
 ```bash
 # Clone o repositório
