@@ -12,8 +12,9 @@ O desafio Codelândia Blog foi um desafio organizado pelo <a href="https://githu
 
 ## 🤓 Aprendizados:
 
-* Criar um mecanismo de busca;
+* Criar um mecanismo de busca simples;
 * Manipular icons do Font Awesome;
+* Criar opção de favorito;
 * Animar elementos com a biblioteca JavaScript ScrollReveal.
 
 ## 🛠 Tecnologias
